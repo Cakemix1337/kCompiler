@@ -123,7 +123,7 @@ public class MigGUI extends JFrame {
 				URL url = null;
 				try {
 					url = new URL(Methods
-							.makeRaw("http://pastebin.com/Vri33Bg5"));
+							.makeRaw(input));
 				} catch (MalformedURLException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
